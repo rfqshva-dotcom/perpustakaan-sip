@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include perpustakaan *.css
+recursive-include perpustakaan *.csv
+recursive-include perpustakaan *.html
+recursive-include perpustakaan *.ico
+recursive-include perpustakaan *.js
+recursive-include perpustakaan *.json
+recursive-include perpustakaan *.md
+recursive-include perpustakaan *.png
+recursive-include perpustakaan *.py
+recursive-include perpustakaan *.svg
+recursive-include perpustakaan *.txt
+recursive-exclude perpustakaan *.pyc
